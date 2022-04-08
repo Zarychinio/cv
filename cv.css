@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    padding: 40px 0;
+    border-radius: 20px;
+}
+
+.container{
+    border-radius: 30px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.avatar{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    margin-top: 5px;
+}
+
+span{
+    color: grey;
+    font-size: 24px;
+}
+
+section,
+header{
+    padding: 10px 60px 20px 60px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.address-image{
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    margin-bottom: 15px;
+    font-style: normal;
+}
+
+.hobbies{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hobbies div{
+    margin-left: 20px;
+}
+
+.hobbies p{
+    color: grey;
+    line-height: 1.5;
+}
